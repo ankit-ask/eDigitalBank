@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5,
     width: 120%;
     height: 200px;
     left: -10%;
-    background: #f2f2f2;
+    background: #EEEEEE;
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -287,7 +287,7 @@ textarea {
         font-size: 30px; } }
   .ftco-section.bg-light,
   .ftco-footer.bg-light {
-    background: #f2f2f2 !important; }
+    background: #EEEEEE !important; }
 
 .ftco-bg-dark {
   background: #D91C28; }
@@ -300,9 +300,9 @@ textarea {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal; }
   .ftco-footer p {
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(250, 250, 250, 0.8); }
   .ftco-footer a {
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(250, 250, 250, 0.8); }
     .ftco-footer a:hover {
       color: #4586FF; }
   .ftco-footer .ftco-heading {
@@ -313,6 +313,9 @@ textarea {
     letter-spacing: .05em;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6); }
+  .ftco-heading-2{
+    color: rgba(250, 250, 250, 0.99) !important;
+  }
 
 .ftco-pricing-popular {
   position: relative; }
@@ -550,4 +553,16 @@ textarea {
     stroke-dashoffset: -136px; } }
 .ftco-custom{
   background-color: #fff !important;
+}
+
+.dark-bg-white-font{
+  color: #fff !important;
+}
+
+
+.home-pro-video { 
+  transition: all .2s ease-in-out;
+}
+.home-pro-video:hover { 
+  transform: scale(1.025);
 }
