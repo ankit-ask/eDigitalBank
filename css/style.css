@@ -566,3 +566,28 @@ textarea {
 .home-pro-video:hover { 
   transform: scale(1.025);
 }
+
+.white-bg-dark-font{
+  color: #000 !important;
+}
+
+.faq-question a{
+  color: #868E96 !important;
+  padding: 5px;
+}
+.faq-question a:hover{
+  color: #2548AF !important;
+  text-decoration: underline;
+}
+
+.panel-group{
+  text-align: left;
+
+}
+.faq-ans{
+  padding: 10px;
+  
+}
+/*.mb-3{
+  padding-left: 30% !important;
+}*/
