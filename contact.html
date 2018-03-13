@@ -18,6 +18,9 @@
 
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/contact-form.css">
+    <link rel="stylesheet" type="text/css" href="js/contact-form.js">
   </head>
   <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
     
@@ -635,7 +638,7 @@
               </div>
             </form> -->
           <div class="directionscontainer" style="text-align: center; padding-top: 50px; padding-bottom: 50px">
-              <button class="btn btn-primary btn-sm">-o-</button>
+              <button class="btn btn-primary btn-sm"><span class="oi oi-map-marker"></span></button>
               
               <button class="btn btn-primary btn-sm">Find Store</button>
               <div style="margin-left: 40%; margin-top: 5%; width: 50px; height: 50px; padding: 50px; border-radius: 50px; background-color: #888888"></div>
@@ -655,13 +658,42 @@
 
         <div class="col-lg-12 col-md-6" style="margin-top: 5%;">
             <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
-              <div class="ftco-icon mb-3"><span class="oi oi-thumb-up display-4 text-muted"></span></div>
+              <div class="ftco-icon mb-3"><img src="images/icons/email.png" style="width: 60px; height: 60px;"></div>
               <div class="media-body">
-                <h5 class="mt-0">Some Important Announcements</h5>
-                <p class="mb-5">
-                <p>This section will hold some major annuncements &amp; offers.</p>
-                </p>
-                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+                
+
+
+
+
+  
+        <form role="form">
+        <br style="clear:both">
+                    <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+            <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+          </div>
+          
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block "></p></span>                    
+                    </div>
+            
+        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Send</button>
+        </form>
+
+
+
+
+
+
+
+<!--                 <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p> -->
               </div>
             </div>
           </div>
