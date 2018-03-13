@@ -591,3 +591,15 @@ textarea {
 /*.mb-3{
   padding-left: 30% !important;
 }*/
+.nav-item a{
+  color: rgba(0,0,0,1) !important;
+  transition: all .1s ease-in-out;
+}
+.navbar-brand{
+  color: rgba(0,0,0,1) !important;
+}
+.nav-item a:hover{
+  text-decoration: underline !important;
+  /*padding-right: 5px !important;*/
+  transform: translateY(2px);
+}
