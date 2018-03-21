@@ -1,15 +1,45 @@
-.caret-up {
-    width: 0; 
-    height: 0; 
-    border-left: 4px solid rgba(0, 0, 0, 0);
-    border-right: 4px solid rgba(0, 0, 0, 0);
-    border-bottom: 4px solid;
-    
-    display: inline-block;
-    margin-left: 2px;
-    vertical-align: middle;
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
 }
-.dropdown-menu li a{
-	color: black;
-	padding: 10px;
+
+.dropdown:hover .dropdown-menu {
+    max-height: 250%;
+    min-width: 300px;
+    opacity: 1;
+    padding-left: 12px;
+}
+
+
+.slide-left-right-dropdown
+{
+text-decoration:none;
+display: inline-block;
+color:black;
+}
+/* add a empty string after the elment with class .slide-left-right */
+.slide-left-right-dropdown:after 
+{
+content: '';
+display: block;
+height: 2px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease; /* .5 seonds for changes to the width and background-color */
+-webkit-transition: width .5s ease, background-color .5s ease; /* Chrome and Safari */
+-moz-transition: width .5s ease, background-color .5s ease; /* FireFox */
+}
+/* Change the width and background on hover, aka sliding out */
+.slide-left-right-dropdown:hover:after 
+{
+width: 100%;
+background: rgba(0,0,0,0.9);
 }

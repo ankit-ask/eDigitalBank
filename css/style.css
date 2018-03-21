@@ -599,7 +599,73 @@ textarea {
   color: rgba(0,0,0,1) !important;
 }
 .nav-item a:hover{
-  text-decoration: underline !important;
+  /*text-decoration: underline !important;*/
   /*padding-right: 5px !important;*/
-  transform: translateY(2px);
+  /*transform: translateY(2px);*/
+}
+
+/*.nav-link{
+  transition: all .1s ease-in-out !important;
+}
+.nav-link:hover{
+  border-bottom: solid !important;
+  border-color: black !important;
+
+}*/
+/*.nav-link a:before {
+  
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.nav-link a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}*/
+
+.slide-left-right
+{
+text-decoration:none;
+display: inline-block;
+color:black;
+}
+/* add a empty string after the elment with class .slide-left-right */
+.slide-left-right:after 
+{
+content: '';
+display: block;
+height: 4px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease; /* .5 seonds for changes to the width and background-color */
+-webkit-transition: width .5s ease, background-color .5s ease; /* Chrome and Safari */
+-moz-transition: width .5s ease, background-color .5s ease; /* FireFox */
+}
+/* Change the width and background on hover, aka sliding out */
+.slide-left-right:hover:after 
+{
+width: 100%;
+background: black;
+}
+
+
+.indipaisa-logo-nav{
+  width: 70% !important;
+}
+
+.feedback {
+  background-color : #31B0D5;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-color: #46b8da;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 0px;
 }

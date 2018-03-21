@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Exclusivity - Free Bootstrap 4 Template</title>
+    <title>Indi-Paisa</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/fav-icon.ico"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Free Template by Free-Template.co" />
@@ -18,25 +19,61 @@
 
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--  Dropdown -->
+    <link rel="stylesheet" type="text/css" href="js/dropdown-menu.js">
+    <link rel="stylesheet" type="text/css" href="css/dropdown-menu.css">
+<!--  Dropdown -->
+
+
+<link rel="stylesheet" type="text/css" href="js/login-register.js">
+<link rel="stylesheet" type="text/css" href="css/login-register.css">
+
+
+
   </head>
   <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-      <div class="container" style="background-color: rgba(255,255,255,0.9) !important;">
-        <a class="navbar-brand" href="index.html">E-Digital Bank</a>
+      <div class="container" style="background-color: rgba(255,255,255,0.9) !important; ">
+        <a class="navbar-brand indipaisa-logo-nav" href="index.html"><img src="images/indipaisa-logo.png" style="width: 30%; height: 35%;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="bankingService.html" class="nav-link">Banking Service</a></li>
-            <li class="nav-item"><a href="quickPay.html" class="nav-link">Quick Pay</a></li>
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item slide-left-right dropdown"><a href="bankingService.html" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgba(0,0,0,1) !important;">Banking Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="bankingService.html#section-features" class="slide-left-right-dropdown">Cash Withdrawal</a></li>
+            <li><a href="bankingService.html#section-features" class="slide-left-right-dropdown">Cash Deposit</a></li>
+            <li><a href="bankingService.html#section-features" class="slide-left-right-dropdown">Bank Statements</a></li>
+            <li><a href="bankingService.html#section-features" class="slide-left-right-dropdown">Balance Enquiry</a></li>
+            <li><a href="bankingService.html#section-features" class="slide-left-right-dropdown">Fund Transfer</a></li>
+            <li><a href="bankingService.html#section-features" class="slide-left-right-dropdown">Merchant Service</a></li>
+          </ul>
+        </li>
+              <!-- <li class="nav-item active dropdown"><a href="bankingService.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Banking Service</a>
+ -->
+              <!-- <ul class="dropdown-menu">
+                <li><a href="#">Cash Withdrawal</a></li>
+                <li><a href="#">Cash Deposit</a></li>
+                <li><a href="#">Bank Statement</a></li>
+                <li><a href="#">Balance Enquiry</a></li>
+                <li><a href="#">Fund Transfer</a></li>
+              </ul> -->
+
+            </li>
+            <li class="nav-item slide-left-right"><a href="quickPay.html" class="nav-link" style="color: rgba(0,0,0,1) !important;">Money Transfer</a></li>
+
+
+
             <!-- <li class="nav-item"><a href="#section-services" class="nav-link">Services</a></li> -->
-            <li class="nav-item active"><a href="billPay.html" class="nav-link">Bill Pay</a></li>
-            <li class="nav-item"><a href="travelDesk.html" class="nav-link">Travel Desk</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item slide-left-right"><a href="billPay.html" class="nav-link" style="color: rgba(0,0,0,1) !important;">Bill Pay</a></li>
+            <li class="nav-item slide-left-right"><a href="travelDesk.html" class="nav-link" style="color: rgba(0,0,0,1) !important;">Travel Desk</a></li>
+            <li class="nav-item slide-left-right"><a href="loans.html" class="nav-link" style="color: rgba(0,0,0,1) !important;">Loans</a></li>
+            <!-- <li class="nav-item"><a href="about.html" class="nav-link" style="color: rgba(0,0,0,1) !important;">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link" style="color: rgba(0,0,0,1) !important;">Contact</a></li> -->
           </ul>
         </div>
       </div>
@@ -397,7 +434,7 @@
         </div>
         <div class="row">
           <div class="col-md text-left">
-            <p>&copy; e-Digital Bank 2018. All Rights Reserved.  <!-- Made with <span class="icon-heart text-danger"></span>  by <a href="https://free-template.co/">Free-Template.co</a> --></p>
+            <p>Powered by Shree Global Resources &copy;2018. All Rights Reserved.  <!-- Made with <span class="icon-heart text-danger"></span>  by <a href="https://free-template.co/">Free-Template.co</a> --></p>
           </div>
         </div>
       </div>
@@ -421,6 +458,36 @@
 
     <script src="js/main.js"></script>
 
-    
+<!-- Join Us Button -->
+
+<div id="mybutton">
+<button class="feedback" data-toggle="modal" data-target="#myModal">Join Us</button>
+</div>
+
+<!-- Join Us Button -->
+
+
+<!-- Join Us modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×</button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Partner With Us</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    Keep Calm! We are brewing something good for you!    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Join Us modal -->    
   </body>
 </html>
